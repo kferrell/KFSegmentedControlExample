@@ -1,4 +1,4 @@
-KFSegmentControlExample
+KFSegmentedControlExample
 =======================
 
 This project contains an example of how to implement a stylized UISegmentedControl and use it to switch between two lists
