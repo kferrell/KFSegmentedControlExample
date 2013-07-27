@@ -16,8 +16,16 @@
 		B1994DDF17A4495700202FF0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DDE17A4495700202FF0 /* Default.png */; };
 		B1994DE117A4495700202FF0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DE017A4495700202FF0 /* Default@2x.png */; };
 		B1994DE317A4495700202FF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DE217A4495700202FF0 /* Default-568h@2x.png */; };
-		B1994DE617A4495700202FF0 /* KFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1994DE517A4495700202FF0 /* KFViewController.m */; };
-		B1994DE917A4495700202FF0 /* KFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1994DE717A4495700202FF0 /* KFViewController.xib */; };
+		B1994DF117A4498C00202FF0 /* KFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1994DF017A4498C00202FF0 /* KFTableViewController.m */; };
+		B1994DFB17A44CB300202FF0 /* segment_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DF317A44CB300202FF0 /* segment_arrow.png */; };
+		B1994DFC17A44CB300202FF0 /* segment_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DF417A44CB300202FF0 /* segment_arrow@2x.png */; };
+		B1994DFD17A44CB300202FF0 /* segmentbk_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DF517A44CB300202FF0 /* segmentbk_off.png */; };
+		B1994DFE17A44CB300202FF0 /* segmentbk_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DF617A44CB300202FF0 /* segmentbk_off@2x.png */; };
+		B1994DFF17A44CB300202FF0 /* segmentbk_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DF717A44CB300202FF0 /* segmentbk_on.png */; };
+		B1994E0017A44CB300202FF0 /* segmentbk_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DF817A44CB300202FF0 /* segmentbk_on@2x.png */; };
+		B1994E0117A44CB300202FF0 /* segmentbk_seperator.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DF917A44CB300202FF0 /* segmentbk_seperator.png */; };
+		B1994E0217A44CB300202FF0 /* segmentbk_seperator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1994DFA17A44CB300202FF0 /* segmentbk_seperator@2x.png */; };
+		B1994E0517A44CDF00202FF0 /* KFStyledSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B1994E0417A44CDF00202FF0 /* KFStyledSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +42,18 @@
 		B1994DDE17A4495700202FF0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B1994DE017A4495700202FF0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B1994DE217A4495700202FF0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B1994DE417A4495700202FF0 /* KFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFViewController.h; sourceTree = "<group>"; };
-		B1994DE517A4495700202FF0 /* KFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFViewController.m; sourceTree = "<group>"; };
-		B1994DE817A4495700202FF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KFViewController.xib; sourceTree = "<group>"; };
+		B1994DEF17A4498C00202FF0 /* KFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFTableViewController.h; sourceTree = "<group>"; };
+		B1994DF017A4498C00202FF0 /* KFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFTableViewController.m; sourceTree = "<group>"; };
+		B1994DF317A44CB300202FF0 /* segment_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segment_arrow.png; sourceTree = "<group>"; };
+		B1994DF417A44CB300202FF0 /* segment_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segment_arrow@2x.png"; sourceTree = "<group>"; };
+		B1994DF517A44CB300202FF0 /* segmentbk_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentbk_off.png; sourceTree = "<group>"; };
+		B1994DF617A44CB300202FF0 /* segmentbk_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentbk_off@2x.png"; sourceTree = "<group>"; };
+		B1994DF717A44CB300202FF0 /* segmentbk_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentbk_on.png; sourceTree = "<group>"; };
+		B1994DF817A44CB300202FF0 /* segmentbk_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentbk_on@2x.png"; sourceTree = "<group>"; };
+		B1994DF917A44CB300202FF0 /* segmentbk_seperator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = segmentbk_seperator.png; sourceTree = "<group>"; };
+		B1994DFA17A44CB300202FF0 /* segmentbk_seperator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentbk_seperator@2x.png"; sourceTree = "<group>"; };
+		B1994E0317A44CDE00202FF0 /* KFStyledSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFStyledSegmentedControl.h; sourceTree = "<group>"; };
+		B1994E0417A44CDF00202FF0 /* KFStyledSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFStyledSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +100,13 @@
 		B1994DD217A4495700202FF0 /* KFSegmentControlExample */ = {
 			isa = PBXGroup;
 			children = (
+				B1994DF217A44C8000202FF0 /* Images */,
 				B1994DDB17A4495700202FF0 /* KFAppDelegate.h */,
 				B1994DDC17A4495700202FF0 /* KFAppDelegate.m */,
-				B1994DE417A4495700202FF0 /* KFViewController.h */,
-				B1994DE517A4495700202FF0 /* KFViewController.m */,
-				B1994DE717A4495700202FF0 /* KFViewController.xib */,
+				B1994DEF17A4498C00202FF0 /* KFTableViewController.h */,
+				B1994DF017A4498C00202FF0 /* KFTableViewController.m */,
+				B1994E0317A44CDE00202FF0 /* KFStyledSegmentedControl.h */,
+				B1994E0417A44CDF00202FF0 /* KFStyledSegmentedControl.m */,
 				B1994DD317A4495700202FF0 /* Supporting Files */,
 			);
 			path = KFSegmentControlExample;
@@ -105,6 +124,21 @@
 				B1994DE217A4495700202FF0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1994DF217A44C8000202FF0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B1994DF317A44CB300202FF0 /* segment_arrow.png */,
+				B1994DF417A44CB300202FF0 /* segment_arrow@2x.png */,
+				B1994DF517A44CB300202FF0 /* segmentbk_off.png */,
+				B1994DF617A44CB300202FF0 /* segmentbk_off@2x.png */,
+				B1994DF717A44CB300202FF0 /* segmentbk_on.png */,
+				B1994DF817A44CB300202FF0 /* segmentbk_on@2x.png */,
+				B1994DF917A44CB300202FF0 /* segmentbk_seperator.png */,
+				B1994DFA17A44CB300202FF0 /* segmentbk_seperator@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +197,14 @@
 				B1994DDF17A4495700202FF0 /* Default.png in Resources */,
 				B1994DE117A4495700202FF0 /* Default@2x.png in Resources */,
 				B1994DE317A4495700202FF0 /* Default-568h@2x.png in Resources */,
-				B1994DE917A4495700202FF0 /* KFViewController.xib in Resources */,
+				B1994DFB17A44CB300202FF0 /* segment_arrow.png in Resources */,
+				B1994DFC17A44CB300202FF0 /* segment_arrow@2x.png in Resources */,
+				B1994DFD17A44CB300202FF0 /* segmentbk_off.png in Resources */,
+				B1994DFE17A44CB300202FF0 /* segmentbk_off@2x.png in Resources */,
+				B1994DFF17A44CB300202FF0 /* segmentbk_on.png in Resources */,
+				B1994E0017A44CB300202FF0 /* segmentbk_on@2x.png in Resources */,
+				B1994E0117A44CB300202FF0 /* segmentbk_seperator.png in Resources */,
+				B1994E0217A44CB300202FF0 /* segmentbk_seperator@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +217,8 @@
 			files = (
 				B1994DD917A4495700202FF0 /* main.m in Sources */,
 				B1994DDD17A4495700202FF0 /* KFAppDelegate.m in Sources */,
-				B1994DE617A4495700202FF0 /* KFViewController.m in Sources */,
+				B1994DF117A4498C00202FF0 /* KFTableViewController.m in Sources */,
+				B1994E0517A44CDF00202FF0 /* KFStyledSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +231,6 @@
 				B1994DD617A4495700202FF0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B1994DE717A4495700202FF0 /* KFViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1994DE817A4495700202FF0 /* en */,
-			);
-			name = KFViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

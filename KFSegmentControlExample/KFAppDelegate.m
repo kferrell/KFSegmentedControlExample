@@ -7,8 +7,8 @@
 //
 
 #import "KFAppDelegate.h"
+#import "KFTableViewController.h"
 
-#import "KFViewController.h"
 
 @implementation KFAppDelegate
 
@@ -16,7 +16,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[KFViewController alloc] initWithNibName:@"KFViewController" bundle:nil];
+    self.viewController = [[KFTableViewController alloc] initWithStyle:UITableViewStylePlain];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

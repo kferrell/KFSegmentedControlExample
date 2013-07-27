@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KFTableViewController.h"
 
 @class KFViewController;
 
@@ -14,6 +15,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) KFViewController *viewController;
+@property (strong, nonatomic) KFTableViewController *viewController;
 
 @end
